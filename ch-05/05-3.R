@@ -17,4 +17,4 @@ head(mpg, 20)
 table(mpg$grade)
 qplot(mpg$grade)
 
-mpg$grade2 <- ifelse(mpg$total >= 30, "A", ifelse(mpg$total >= 25, "B", ifelse(mpg$total >= 20, "C", "D"))
+mpg$grade2 <- ifelse(mpg$total >= 30, "A", ifelse(mpg$total >= 25, "B", ifelse(mpg$total >= 20, "C", "D")))
